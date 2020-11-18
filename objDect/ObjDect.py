@@ -45,9 +45,6 @@ for i in range(num_photos):
     # Creates the environment of
     # the picture and shows it
     plt.subplot(1, 1, 1)
-    #cv2.namedWindow("image")
-
-
     plt.imshow(img_rgb)
     plt.show(block=False)
     plt.pause(1)
