@@ -49,8 +49,6 @@ for i in range(num_photos):
 
 
     plt.imshow(img_rgb)
-    cv2.waitKey(1)
-    #cv2.destroyWindow()
     plt.show(block=False)
     plt.pause(1)
     plt.close()
